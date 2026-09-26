@@ -3,6 +3,8 @@
 .env.local
 **/.env
 !**/.env.example
+# Keys emailed to reviewers. Not part of the GitHub repo.
+environments/
 
 # Python
 .venv/

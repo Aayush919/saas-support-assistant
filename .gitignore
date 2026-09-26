@@ -1,0 +1,28 @@
+# Secrets & local env
+.env
+.env.local
+**/.env
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / React
+client/node_modules/
+client/dist/
+npm-debug.log*
+yarn-error.log*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
